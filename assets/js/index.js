@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const apiKey = 'aff7ea14ef76b902cc764977cd0ad168'; 
+    const apiKey = 'aff7ea14ef76b902cc764977cd0ad168'; //Api key
     const searchButton = document.getElementById('search-button');
     const cityInput = document.getElementById('city-input');
     const currentWeatherDetails = document.getElementById('current-weather-details');
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
     async function fetchWeatherData(city) {
         try {
             // Get coordinates for the city
-            const geoResponse = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${apiKey}`);
+            const geoResponse = await fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${apiKey}`);
             const geoData = await geoResponse.json();
             if (geoData.length === 0) {
                 alert('City not found');
