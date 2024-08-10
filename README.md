@@ -19,7 +19,7 @@ This project is a weather dashboard application that allows users to view the cu
 - Ensure you have a modern web browser to run the application.
 
 ## Installation
-1- Clone the repo: ``git clone https://github.com/your-username/your-repo-name.git``
+1- Clone the repo: ``git clone (https://github.com/ManuelP02/Fancy-Weather-Dashboard)``
 
 2- Navigate to the project directory: ``cd your-repo-name``
 
